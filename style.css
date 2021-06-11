@@ -1,0 +1,64 @@
+* {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: black;
+}
+
+.card {
+    width: 400px;
+    height: 200px;
+    background-image: url("img/backgorund.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: calc(50% - 200px);
+    margin-top: 200px;
+}
+
+h1 {
+    padding: 30px 20px ;
+    font-size: 20px;
+    font-weight: unset;
+}
+
+.list{
+    margin: -4px 9px;
+    font-size: 13px;
+    
+}
+
+li {
+    background-image: url(img/Insta.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    list-style: none;
+    padding-left: 40px;
+    font-size: 17px;
+    background-size: 34px;
+    height: 30px;
+    line-height: 2.9;
+    margin-bottom: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+ul { 
+    display: inline-block;
+}
+
+.twitter {
+    background-image: url(img/Twitter.png);
+}
+
+.youtube {
+    background-image: url(img/Youtube.png);
+}
